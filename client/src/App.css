@@ -1,0 +1,34 @@
+.main, .employees-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-info input {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+button {
+    width: 318px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.employees-info {
+    align-items: center;
+}
